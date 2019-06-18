@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery Appender</title>
+
+    <link rel="stylesheet" href="demo/animate.css">
+</head>
+
+<body>
+
+    <div class="row_container">
+        <p class="row-number"></p>
+
+        <label>
+            First Name
+            <input type="text" name="fname" style="margin: 0 10px;">
+        </label>
+
+        <label>
+            Last Name
+            <input type="text" name="lname" style="margin: 0 10px;">
+        </label>
+
+        <label>
+            Age
+            <input type="text" name="age" style="margin: 0 10px;">
+        </label>
+
+        <button class="delete-btn" style="margin: 0 10px;">Delete</button>
+
+        <br><br>
+    </div>
+
+    <button class="add-new-item" style="margin: 0 10px;">Add new item</button>
+
+    <div id="appendHere"></div>
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/appender.js"></script>
+    <script>
+        $("#appendHere").appender({
+            rowSection: '.row_container',
+            addBtn: '.add-new-item',
+            appendEffect: 'fade',
+            addClass: 'animated bounceInLeft',
+            rowNumber: '.row-number',
+            deleteBtn: '.delete-btn',
+            hideSection: true
+        });
+    </script>
+
+
+</body>
+
+</html>
