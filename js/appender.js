@@ -1,17 +1,12 @@
-// Custom Row Creator by Amir Salehi (AmirSalehi.ir)
+// Simple jquery Append by Amir Salehi (https://github.com/amirsaa)
 // 2019 15 June
 
 (function ($) {
-
     $.fn.appender = function (settings) {
-
-        var appendArea = this;
-
+        let appendArea = this;
         let rowHtml = $(settings.rowSection)[0].outerHTML;
 
-        if (settings.hideSection) {
-            $(settings.rowSection).remove();
-        }
+        settings.hideSection ? $(settings.rowSection).remove() : "";
 
         let rowCounter = 1;
 
