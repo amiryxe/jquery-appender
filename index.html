@@ -7,10 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>jQuery Appender</title>
 
+    <link rel="stylesheet" href="demo/demo.css">
     <link rel="stylesheet" href="demo/animate.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Zilla+Slab&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+<span id="forkongithub"><a target="_blank" href="https://github.com/amirsaa/jQuery-Appender">View on GitHub</a></span>
+
+<h1>jQuery Appender</h1>
+<p>
+    Simple Way to Create and Append Elements
+    <br>
+    <b>by <a target="_blank" href="https://github.com/amirsaa/">@amirsa</a></b>
+</p>
+
+<div id="wrapper">
 
     <div class="row_container">
         <p class="row-number"></p>
@@ -35,24 +49,27 @@
         <br><br>
     </div>
 
-    <button class="add-new-item" style="margin: 0 10px;">Add new item</button>
+
+    <button class="add-new-item" style="margin: 0 10px;">Demo: Add new item</button>
 
     <div id="appendHere"></div>
 
+</div>
 
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/appender.js"></script>
-    <script>
-        $("#appendHere").appender({
-            rowSection: '.row_container',
-            addBtn: '.add-new-item',
-            appendEffect: 'fade',
-            addClass: 'animated bounceInLeft',
-            rowNumber: '.row-number',
-            deleteBtn: '.delete-btn',
-            hideSection: true
-        });
-    </script>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/appender.js"></script>
+<script>
+    $("#appendHere").appender({
+        rowSection: '.row_container',
+        addBtn: '.add-new-item',
+        appendEffect: 'fade',
+        addClass: 'animated bounceInLeft',
+        rowNumber: '.row-number',
+        deleteBtn: '.delete-btn',
+        hideSection: true
+    });
+</script>
 
 
 </body>
