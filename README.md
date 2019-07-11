@@ -16,12 +16,12 @@ Simple jQuery plugin for initial and Append anything
 3. Usage:
 ```javascript
 $("#appendHere").appender({
-        rowSection: '.row_container',
-        addBtn: '.add-new-item',
-        appendEffect: 'fade',
-        addClass: 'animated bounceInLeft',
-        rowNumber: '.row-number',
-        deleteBtn: '.delete-btn',
-        hideSection: true
-    });
+    rowSection: '.row_container',
+    addBtn: '.add-new-item',
+    appendEffect: 'fade',
+    addClass: 'animated bounceInLeft',
+    rowNumber: '.row-number',
+    deleteBtn: '.delete-btn',
+    hideSection: true
+});
 ```  

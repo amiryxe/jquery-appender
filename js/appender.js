@@ -32,9 +32,11 @@
         });
 
 
-        $(document).on('click', settings.deleteBtn, function (e) {
-            e.target.closest(settings.rowSection).remove();
-        })
+        if(settings.deleteBtn) {
+            $(document).on('click', settings.deleteBtn, function (e) {
+                e.target.closest(settings.rowSection).remove();
+            })
+        }
     };
 
 }(jQuery));
