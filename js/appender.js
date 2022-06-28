@@ -1,4 +1,4 @@
-// Simple jquery Append by Amir Salehi (https://github.com/amirsaa)
+// Simple jquery Append by Amir Salehi (https://github.com/amiryxe)
 // 2019 15 June
 
 (function ($) {
