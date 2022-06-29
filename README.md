@@ -1,9 +1,9 @@
 # jQuery Appender
-Simple jQuery plugin for initial and Append anything
+Simple jQuery plugin for initial and Appending anything
 
-### How install Appender
+### How to install Appender
 
-1. include jQuery in your project like this:
+1. Include jQuery in your project:
 ```html
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 ```
