@@ -1,7 +1,7 @@
 # jQuery Appender
 Simple jQuery plugin for initial and Appending anything
 
-### How to install Appender
+### How to use Appender
 
 1. Include jQuery in your project:
 ```html
@@ -13,7 +13,7 @@ Simple jQuery plugin for initial and Appending anything
 <script src="js/appender.js"></script>
 ```  
 
-3. Usage:
+3. Initial:
 ```javascript
 $("#appendHere").appender({
     rowSection: '.row_container',
