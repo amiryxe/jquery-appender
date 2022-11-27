@@ -1,5 +1,5 @@
 # jQuery Appender
-Simple jQuery plugin for initial and Appending anything
+Simple jQuery plugin for initial and appending anything.
 
 ### How to use Appender
 
